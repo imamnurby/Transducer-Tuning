@@ -1,0 +1,11 @@
+backbone_hidden_size: null
+mlp_hidden_act: null
+gnn_type: null
+gnn_input_hidden_size: null
+gnn_output_hidden_size: null
+gnn_intermediate_hidden_size: null
+gnn_attn_heads: null
+backbone_model_path: Salesforce/codet5p-220m 
+architecture: encoder-decoder
+gradient_checkpointing: true
+num_virtual_tokens: 8

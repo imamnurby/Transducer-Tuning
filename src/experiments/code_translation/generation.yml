@@ -1,0 +1,21 @@
+# Parameters that control the length of the output
+# max_length: 100
+max_new_tokens: 150
+
+# Parameters that control the generation strategy used
+do_sample: false
+num_beams: 2
+early_stopping: true
+
+# Parameters for manipulation of the model output logits
+temperature: 1.0
+top_k: 50
+top-p: 1.0
+
+# Parameters that define the output variables of `generate`
+num_return_sequences: 1
+output_attentions: false
+output_hidden_states: false
+output_scores: false
+output_logits: false
+return_dict_in_generate: false
