@@ -1,0 +1,15 @@
+Model,Tuning Method,Summarization,Summarization (std),Assert Generation,Assert Generation (std),Code Translation,Code Translation (std),Code Repair,Code Repair (std),Average
+codet5p-220m,Transducers Tuning,99.84,0.21,82.32,0.3,96.6,1.31,98.1,0.39,94.22
+codet5p-220m,Full Fine-Tuning,99.91,0.01,83.16,0.01,97.78,0.0,99.87,0.0,95.18
+codet5p-220m,LoRA,99.91,0.0,83.17,0.0,97.78,0.0,99.87,0.0,95.18
+codet5p-220m,No Fine-Tuning,95.49,0.0,76.85,0.0,94.47,0.0,96.0,0.0,90.7
+codet5p-220m,Linear Adapter,98.05,0.88,82.48,0.02,97.7,0.12,99.31,0.71,94.38
+codet5p-220m,Prefix-Tuning,99.93,0.01,83.17,0.0,97.78,0.0,99.87,0.0,95.19
+codet5p-220m,Prompt-Tuning,99.91,0.01,83.17,0.0,94.4,0.27,97.46,1.13,93.73
+codet5p-770m,Transducers Tuning,98.11,1.61,81.16,0.71,94.88,0.08,96.75,3.94,92.72
+codet5p-770m,Full Fine-Tuning,99.81,0.01,83.16,0.01,97.78,0.0,99.87,0.0,95.16
+codet5p-770m,LoRA,99.79,0.02,83.17,0.0,97.78,0.0,99.87,0.0,95.15
+codet5p-770m,No Fine-Tuning,87.9,0.0,74.13,0.0,90.1,0.0,95.71,0.0,86.96
+codet5p-770m,Linear Adapter,98.24,1.39,81.23,0.88,97.77,0.02,99.82,0.02,94.26
+codet5p-770m,Prefix-Tuning,99.85,0.0,83.15,0.02,97.78,0.0,99.87,0.0,95.16
+codet5p-770m,Prompt-Tuning,99.82,0.01,83.17,0.0,90.15,0.01,99.22,0.71,93.09

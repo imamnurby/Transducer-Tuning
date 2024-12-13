@@ -1,0 +1,9 @@
+Model,Tuning Method,Summarization,Summarization (std),Assert Generation,Assert Generation (std),Code Translation,Code Translation (std),Code Repair,Code Repair (std),Average
+codet5p-220m,GVE + ABF,99.84,0.21,82.32,0.3,96.6,1.31,98.1,0.39,94.22
+codet5p-220m,Linear,99.54,0.09,83.08,0.07,91.76,0.36,99.45,0.59,93.46
+codet5p-220m,No ABF,99.31,0.06,83.14,0.04,96.03,0.0,99.37,0.09,94.46
+codet5p-220m,No GVE,94.33,7.32,77.07,8.62,92.53,2.65,97.48,3.38,90.35
+codet5p-770m,GVE + ABF,98.11,1.61,81.16,0.71,94.88,0.08,96.75,3.94,92.72
+codet5p-770m,Linear,99.17,0.42,79.31,4.64,90.4,0.02,93.27,0.88,90.54
+codet5p-770m,No ABF,96.23,1.55,78.79,2.51,97.78,0.0,99.54,0.12,93.08
+codet5p-770m,No GVE,98.64,0.52,83.16,0.01,91.11,0.33,94.33,4.16,91.81
